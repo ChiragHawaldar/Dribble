@@ -1,0 +1,56 @@
+@font-face {
+    font-family: logo-font;
+    src: url("/Fonts/Pacifico-Regular.ttf");
+}
+
+
+.logo-font{
+    font-family: logo-font;
+}
+
+
+.move-up {
+    transform: translateY(-50px);
+ 
+
+}
+
+.hiddenText {
+  display: none;
+}
+
+.Activeboder{
+    border: 3px solid rgb(213, 73, 120);
+
+}
+
+
+.custom_check{
+    width: 10px;
+    height: 20px;
+    border-right: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    rotate:45deg ;
+    top: 1px;
+    left: -25px;
+    position: absolute;
+   
+}
+
+.opacity{
+    opacity: 0;
+}
+
+.lowOpacity{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+

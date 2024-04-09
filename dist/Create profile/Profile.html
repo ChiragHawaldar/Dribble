@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <h1 class="text-3xl logo-font p-4 text-pink-500">dribbble</h1>
+
+    <div class="flex justify-center items-center">
+        <div class="m-auto max-w-lg w-full px-4">
+            <div>
+                <h1 class="text-3xl font-bold text-center">Welcome! Let's create your profile</h1>
+                <p class="text-gray-400 text-sm text-center mt-3">Let others get to know you better! You can do these later</p>
+            </div>
+
+            <div class="font-bold mt-6 text-center">
+                Add an avatar
+            </div>
+
+            <div class="mt-5 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                <div class="w-[150px] h-[150px] md:w-[200px] md:h-[200px] border-dashed border-4 rounded-full border-gray-400 flex justify-center items-center overflow-hidden relative">
+                    <img class="size-5 absolute" src="/Icon/camera-solid.svg" alt="Profile Photo">
+                    <img class="size-[150px] md:size-[200px] z-1 absolute" src="" alt="" id="profile-pic">
+                </div>
+                <div class="flex flex-col items-center mt-8 md:mt-0">
+                    <label for="input-file" class="border-2 p-1 cursor-pointer">Update image</label>
+                    <input class="hidden" type="file" accept="image/jpeg,image/png,image/jpg" id="input-file">
+                    <div class="text-sm text-gray-400 text-center md:text-left">
+                        Or choose one of our defaults
+                    </div>
+                </div>
+            </div>
+
+            <div class="font-bold text-base mt-10 text-center">
+                Add your location
+            </div>
+            <div class="mt-3">
+                <input type="text" id="input-location" class="w-full outline-none px-4 py-2 rounded-lg" placeholder="Enter a location">
+            </div>
+            <hr class="mt-8">
+
+            <a href="../ProfileDetails/Details.html">
+                <button id="NextBtn" class="mt-6 bg-pink-600 hover:bg-pink-500 p-2 w-full md:w-40 rounded-lg text-white font-semibold">Next</button>
+            </a>
+
+            <div class="text-gray-400 text-[12px] mt-3 font-bold text-center md:text-left md:ml-6" id="PressReturn">or Press RETURN</div>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+
+</html>

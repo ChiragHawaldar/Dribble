@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/dist/style.css">
+  <link rel="stylesheet" href="home.css">
+  <script src="https://kit.fontawesome.com/77443e4491.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="flex justify-between items-center p-4">
+
+   <!-- Desktop Navigation -->
+   <div class="desktop-nav flex space-x-3 items-center">
+    <div class="logo-font text-xl">
+      Dribbble
+    </div>
+    <ul class="flex  justify-between space-x-4 text-base font-semibold text-gray-400">
+      <li>Inspiration</li>
+      <li>Find Work</li>
+      <li>Learn Design</li>
+      <li>Go Pro</li>
+      <li>Hire Designers</li>
+    </ul>
+  </div>
+
+  <!-- Mobile Navigation (Hidden by default) -->
+  <div class="mobile-nav flex items-center space-x-2">
+    
+    <div class="text-gray-400 cursor-pointer" id="toggleNav">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+  <div class="flex space-x-2 items-center">
+    <div class="logo-font text-xl  md:hidden">
+      Dribbble
+    </div>
+    <div class="flex border-2 rounded-md items-center p-2 space-x-2 bg-gray-300">
+      <i class="flex-1 fa-solid fa-magnifying-glass" style="color: gray;"></i>
+      <input type="text" value="" placeholder="Search"
+        class="flex-1 outline-none bg-transparent w-16 placeholder:font-semibold">
+    </div>
+    <div>
+      <img src="/Icon/bag-icon.png" class="size-10" alt="">
+    </div>
+    <div
+      class="size-12 border-2 rounded-full border-gray-400 flex justify-center items-center overflow-hidden relative">
+      <img class="size-12absolute" src="" alt="" id="profile-pic">
+
+    </div>
+    <div>
+      <button class="bg-pink-600 hover:bg-pink-500 p-2 w-20 rounded-md  text-white font-semibold ">Finish</button>
+    </div>
+  </div>
+
+</div>
+
+    
+  </div>
+  <hr>
+
+  <div class="flex flex-col items-center space-y-5">
+    <div class="text-3xl font-bold mt-20">
+      <h1>Please verify your email...</h1>
+    </div>
+
+    <div class="w-[200px] h-[200px]">
+      <img src="/Icon/emailVerification-icon.png" alt="">
+    </div>
+
+    <div class=" text-lg text-gray-400">
+      Please verify email address. We've sent a confirmation email to:
+    </div>
+
+    <div class="font-bold text-lg">
+      account@refero.design
+    </div>
+
+    <div class=" text-lg text-gray-400">
+      Click the confirmation link in that email to begin using Dribbble.
+    </div>
+
+    <div>
+      <div class=" text-lg text-gray-400">
+        Didn't receive the email? Check your Spam folder. it may have been caught by a filter. if
+      </div>
+      <div class=" text-lg text-gray-400">
+        you still don't see it, you can <span class="text-pink-600 cursor-pointer">resend the confirmation email.</span>
+      </div>
+    </div>
+
+    <div class=" text-lg text-gray-400">
+      Wrong email address? <span class="text-pink-600 cursor-pointer">Change it.</span>
+    </div>
+
+  </div>
+
+  <div class="flex-col space-y-16 md:space-y-0 md:flex md:flex-row md:space-x-16 p-20 bg-gray-100 ">
+    <div class="flex flex-col  space-y-3">
+      <div class="logo-font text-xl text-pink-600 ">
+        Dribbble
+      </div>
+
+      <div class="text-base font-semibold text-gray-500">
+        Dribbble is the world's leading<br>community for creative to share, grow,<br>and get hired
+      </div>
+
+      <div class="flex space-x-2 cursor-pointer">
+        <div>
+          <i class="fa-brands fa-dribbble text-3xl text-gray-600"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-twitter text-3xl text-gray-600"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-square-facebook text-3xl text-gray-600"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-instagram text-3xl text-gray-600"></i>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-pixiv text-3xl text-gray-600"></i>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="flex-col space-y-16 md:space-y-0 md:flex md:flex-row md:space-x-10">
+      <div class="flex flex-col text-base font-semibold text-gray-500 space-y-4 cursor-pointer">
+        <div class="font-bold text-black cursor-text">
+          For designers
+        </div>
+        <div>
+          Go Pro!
+        </div>
+        <div>
+          Explore design work
+        </div>
+        <div>
+          Design blog
+        </div>
+        <div>
+          Overtime podcast
+        </div>
+        <div>
+          Playoffs
+        </div>
+        <div>
+          Weeklt Warm-up
+        </div>
+        <div>
+          Refer a Friend
+        </div>
+        <div>
+          Code of conduct
+        </div>
+      </div>
+
+      <div class="flex flex-col text-base font-semibold text-gray-500 space-y-4 cursor-pointer">
+        <div class="text-black font-bold cursor-text">
+          Hire designers
+        </div>
+        <div>
+          Post a job opening
+        </div>
+        <div>
+          Post a freelance<br>
+          project
+        </div>
+        <div>
+          Search for designers
+        </div>
+        <div class="text-black font-bold cursor-text">
+          Brands
+        </div>
+        <div>
+          Advertise with us
+        </div>
+      </div>
+
+      <div class="flex flex-col text-base font-semibold text-gray-500 space-y-4 cursor-pointer">
+        <div class="text-black font-bold cursor-text">
+          Company
+        </div>
+        <div>
+          About
+        </div>
+        <div>
+          Support
+        </div>
+        <div>
+          Media kit
+        </div>
+        <div>
+          Testimonials
+        </div>
+        <div>
+          API
+        </div>
+        <div>
+          Terms of service
+        </div>
+        <div>
+          Privacy policy
+        </div>
+        <div>
+          Cookie policy
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col text-base font-semibold text-gray-500 space-y-4 cursor-pointer">
+      <div class="text-black font-bold cursor-text">
+        Directories
+      </div>
+      <div>
+        Design jobs
+      </div>
+      <div>
+        Designers for hire
+      </div>
+      <div>
+        Freelance designers<br>
+        for hire
+      </div>
+      <div>
+        Tags
+      </div>
+      <div>
+        Places
+      </div>
+      <div class="text-black font-bold cursor-text">
+        Design assets
+      </div>
+      <div>
+        Dribble Marketplace
+      </div>
+      <div>
+        Creative Market
+      </div>
+      <div>
+        Fontspring
+      </div>
+      <div>
+        Font Squirrel
+      </div>
+    </div>
+
+    <div class="flex flex-col text-base font-semibold text-gray-500 space-y-4 cursor-pointer">
+      <div class="text-black font-bold cursor-text">
+        Design Resources
+      </div>
+      <div>
+        Freelancing
+      </div>
+      <div>
+        Design Hiring
+      </div>
+      <div>
+        Design Portfolio
+      </div>
+      <div>
+        Design Education
+      </div>
+      <div>
+        Creative Process
+      </div>
+      <div>
+        Design Industry<br>
+        Trends
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center bg-gray-100 ">
+    <hr class="w-11/12">
+  </div>
+
+  <div class="flex justify-between font-semibold text-gray-400 p-10 bg-gray-100">
+    <div>
+      ©2023 Dribbble. All rights reserved.
+    </div>
+
+    <div class="flex space-x-2 items-center">
+      <div>
+        20,501,853 <span>shots dribbble</span>
+      </div>
+      <div>
+        <i class="fa-brands fa-dribbble text-3xl text-pink-800 bg-pink-500 rounded-full"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+
+</html>
