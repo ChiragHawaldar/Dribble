@@ -1,10 +1,10 @@
 @font-face {
     font-family: logo-font;
-    src: url("Fonts/Pacifico-Regular.ttf");
+    src: url("https://chiraghawaldar.github.io/Dribble/Fonts/Pacifico-Regular.ttf");
 }
 @font-face {
     font-family:Teko ;
-    src: url("Fonts/Teko-VariableFont_wght.ttf");
+    src: url("https://chiraghawaldar.github.io/Dribble/Fonts/Teko-VariableFont_wght.ttf");
 }
 .logo-font{
     font-family: logo-font;
