@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/77443e4491.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-white">
+
+  <div class="md:flex md:space-x-32 ">
+
+    <!-- Hero Image -->
+    <div class="md:w-2/5 ">
+      <img class="h-[600px] w-full md:h-screen object-cover" src="/images/hero-image.png" alt="">
+    </div>
+
+    <!-- Sign Up Form -->
+  
+    <div class="md:w-2/5 bg-white p-8 relative ">
+      <!-- Sign In Link at top right -->
+      <a href="#" class="absolute top-0 right-0 mt-4 mr-4 text-blue-700"><span class="text-black font-bold cursor-default">Already a member?</span>Sign In</a>
+
+      <h1 class="text-4xl font-bold mt-5 text-black" >Sign up to Dribbble</h1>
+
+      <ul class="mt-6 ml-1 hidden" id="usernameNotAvailable">
+        <li class="text-red-500 text-lg  md:block" >&#x2022 Username has already been taken</li>
+      </ul>
+
+      <div class="mt-6">
+        <div class="flex flex-col space-y-2 md:flex-row md:space-x-4 md:space-y-0">
+          <div class="flex-1">
+            <label class="font-bold mt-6 text-lg">Name</label>
+            <input class="bg-gray-200 border-none outline-none p-1 rounded-lg font-medium text-lg w-full" type="text">
+          </div>
+          <div class="flex-1">
+           <div class="flex">
+            <div class="hidden" id="warningIcon">
+              <i  class="fa-solid fa-triangle-exclamation hidden" style="color: #ff0000;" ></i>
+            </div>
+            <div>
+              <label  class="font-bold mt-6 text-lg">Username</label>
+            </div>
+           </div>
+            <input id="usernameInput" class="bg-gray-200 border-none outline-none p-1 rounded-lg font-medium text-lg w-full" type="text">
+          </div>
+        </div>
+
+        <div class="flex flex-col space-y-2">
+          <label class="font-bold mt-6 text-lg">Email</label>
+          <input class="bg-gray-200 border-none outline-none p-1 rounded-lg font-medium text-lg w-full" type="text">
+        </div>
+        <div class="flex flex-col space-y-2">
+          <label class="font-bold mt-6 text-lg">Password</label>
+          <input class="bg-gray-200 border-none outline-none p-1 rounded-lg font-medium text-lg w-full" type="password" placeholder="6+ characters">
+        </div>
+
+        <div class="flex items-center mt-4">
+          <input class="h-4 w-4 mr-2" type="checkbox">
+          <p class="text-sm">Creating an account means you're okay with our <span class="text-blue-800 font-semibold cursor-pointer">terms of Service, Privacy</span>, and our default
+            <span class="text-blue-800 font-semibold cursor-pointer">Notification Settings</span></p>
+        </div>
+
+        <a href="/dist/Create profile/Profile.html"><button onclick="CreateProfile()" class="mt-6 bg-pink-600 hover:bg-pink-500 p-2 w-40 rounded-lg text-white font-semibold">Create Account</button></a>
+
+        <div class="text-sm text-gray-500 mt-5 mb-10">
+          <p>This site is protected by reCAPTCHA and the Google <span class="text-blue-800 font-medium cursor-pointer">Privacy Policy</span> and <span class="text-blue-800 font-medium cursor-pointer">Terms of
+              Service</span> apply</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
